@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
-
+import Image from 'next/image';
 const content = [
   {
     title: "Classical Piano Program",
@@ -9,7 +9,7 @@ const content = [
       "🎹 Master the timeless art of classical piano through expert-led sessions focused on technique, music theory, and expressive performance. This course is ideal for aspiring pianists aiming to refine their skills and stage presence professionally.",
     content: (
       <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
-        <img
+        <Image
           src="https://static.vecteezy.com/system/resources/previews/029/549/995/non_2x/close-up-view-of-grand-piano-entertainment-concept-ai-generated-pro-photo.jpg"
           width={400}
           height={400}

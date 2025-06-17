@@ -1,7 +1,7 @@
 import { InfiniteMovingCardsDemo } from "@/components/Cards";
 import Featuredcourses from "@/components/Featuredcourses";
 import Herosection from "@/components/Herosection";
-import { CardHoverEffectDemo } from "@/components/Hovercard";8
+import { CardHoverEffectDemo } from "@/components/Hovercard";
 import { WavyBackgroundDemo } from "@/components/Instructer";
 import { StickyScrollRevealDemo } from "@/components/Scroll";
 
