@@ -24,14 +24,14 @@ export const WavyBackground = ({
   blur?: number;
   speed?: "slow" | "fast";
   waveOpacity?: number;
-  [key: string]: any;
+  [key: string]: unknown;
 }) => {
-  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const [isSafari, setIsSafari] = useState(false);
   let animationId: number;
 
   // Remove canvasRef from props to avoid DOM warning
-  const { canvasRef: _ignored, ...restProps } = props;
+  const { ...restProps } = props;
 
   const getSpeed = () => {
     switch (speed) {
@@ -101,7 +101,7 @@ export const WavyBackground = ({
     return () => {
       cancelAnimationFrame(animationId);
     };
-  }, []);
+  },);
 
   useEffect(() => {
     setIsSafari(

@@ -2,6 +2,11 @@
 import React from "react";
 import { motion } from "motion/react";
 import Image from 'next/image';
+import { AnchorHTMLAttributes, ReactNode } from "react";
+type HoveredLinkProps = AnchorHTMLAttributes<HTMLAnchorElement> & {
+  children: ReactNode;
+};
+
 const transition = {
   type: "spring" as const,
   mass: 0.5,
@@ -106,7 +111,7 @@ export const ProductItem = ({
   );
 };
 
-export const HoveredLink = ({ children, ...rest }: any) => {
+export const HoveredLink = ({ children, ...rest }: HoveredLinkProps) => {
   return (
     <a
       {...rest}

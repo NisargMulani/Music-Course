@@ -25,7 +25,7 @@ const content = [
       "🎸 Start your musical journey with this engaging beginner’s guitar course. Learn acoustic and electric guitar basics, chord progressions, strumming patterns, and songs in an easy, structured format designed for complete beginners with no prior experience.",
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
-        <img
+        <Image
           src="https://wp-public-fs.s3.ap-south-1.amazonaws.com/tasks/15e4252bf891dde9d812864b8d869386173ae959de443d/images/g3-5e539ec4ec28f.jpeg"
           width={300}
           height={300}
@@ -50,7 +50,7 @@ const content = [
     description:
       "🎧Learn advanced techniques in mixing, mastering, sound design, and arrangement using Ableton, FL Studio, and Logic Pro X to produce professional-quality music across genres and build your unique sound.",
     content: (
-      <img
+      <Image
         src="https://www.shutterstock.com/image-photo/modern-music-record-studio-control-260nw-1760613938.jpg"
         width={300}
         height={300}
