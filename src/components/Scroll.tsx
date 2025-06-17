@@ -10,7 +10,7 @@ const content = [
     content: (
       <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
         <Image
-          src="https://static.vecteezy.com/system/resources/previews/029/549/995/non_2x/close-up-view-of-grand-piano-entertainment-concept-ai-generated-pro-photo.jpg"
+          src="/courses/piano.jpg"
           width={400}
           height={400}
           className="h-full w-full object-cover"
@@ -26,7 +26,7 @@ const content = [
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
         <Image
-          src="https://wp-public-fs.s3.ap-south-1.amazonaws.com/tasks/15e4252bf891dde9d812864b8d869386173ae959de443d/images/g3-5e539ec4ec28f.jpeg"
+          src="/courses/guitar.jpg"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -51,7 +51,7 @@ const content = [
       "🎧Learn advanced techniques in mixing, mastering, sound design, and arrangement using Ableton, FL Studio, and Logic Pro X to produce professional-quality music across genres and build your unique sound.",
     content: (
       <Image
-        src="https://www.shutterstock.com/image-photo/modern-music-record-studio-control-260nw-1760613938.jpg"
+        src="/courses/music-prod.jpg"
         width={300}
         height={300}
         className="h-full w-full object-cover"
